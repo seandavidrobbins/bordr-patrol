@@ -5,6 +5,7 @@ description = "HTTP API for Bordr Patrol"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115",
+    "pydantic-settings>=2.6",
     "uvicorn>=0.32",
 ]
 
