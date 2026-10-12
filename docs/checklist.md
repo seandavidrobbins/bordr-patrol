@@ -11,7 +11,7 @@ The product is both concepts. Sentinel is the intelligence: look up a token, its
 
 ## 1. API foundation
 
-- [ ] FastAPI starts and `GET /health` returns `{"status": "ok"}`, covered by a test
+- [x] FastAPI starts and `GET /health` returns `{"status": "ok"}`, covered by a test
 - [ ] Settings load from the environment, with `.env` ignored
 
 ## 2. Web shell

@@ -1,0 +1,19 @@
+[project]
+name = "bordr-patrol-api"
+version = "0.1.0"
+description = "HTTP API for Bordr Patrol"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.32",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx2>=2.13",
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

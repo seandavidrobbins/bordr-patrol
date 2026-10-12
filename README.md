@@ -4,7 +4,19 @@ A developer console for Bordrless hooks. It shows what a hook will do to an amou
 
 The product scope, architecture, and contest demo are in [docs/product-spec.md](docs/product-spec.md). The working order is in [docs/checklist.md](docs/checklist.md).
 
-Nothing in this repository runs yet. Application directories show up in the commit that adds them.
+## API
+
+From `apps/api`:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+pytest
+uvicorn app.main:app --reload
+```
+
+`GET http://127.0.0.1:8000/health` returns `{"status": "ok"}`.
 
 ## Configuration
 
