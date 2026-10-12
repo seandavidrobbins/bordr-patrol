@@ -22,7 +22,7 @@ The product is both concepts. Sentinel is the intelligence: look up a token, its
 ## 3. Read a live mint
 
 - [x] TypeScript chain adapter depends on `@bordrless/sdk` and `@bordrless/shared`
-- [ ] A mint address returns decoded fields, including the hook program, flags, and registry
+- [x] A mint address returns decoded fields, including the hook program, flags, and registry
 
 ## 4. Simulate a transfer
 
