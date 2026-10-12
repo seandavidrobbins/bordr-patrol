@@ -18,6 +18,17 @@ uvicorn app.main:app --reload
 
 `GET http://127.0.0.1:8000/health` returns `{"status": "ok"}`.
 
+## Web
+
+From `apps/web`:
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://127.0.0.1:3000`. The page is the app shell. It does not call the API yet.
+
 ## Configuration
 
 Copy `.env.example` to `.env` in the repository root when you have a Solana RPC endpoint. The API reads `SOLANA_RPC_URL` from the environment, and from that file when the variable is unset. Do not commit `.env`. Do not put a wallet key in it. The server never signs transactions.
