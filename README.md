@@ -27,7 +27,7 @@ npm install
 npm run dev
 ```
 
-Open `http://127.0.0.1:3000`. The page is the app shell. It does not call the API yet.
+Open `http://127.0.0.1:3000` while the API is running. The page calls `GET /health` and shows the status.
 
 ## Configuration
 

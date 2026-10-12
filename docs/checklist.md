@@ -17,7 +17,7 @@ The product is both concepts. Sentinel is the intelligence: look up a token, its
 ## 2. Web shell
 
 - [x] Next.js app starts
-- [ ] A page calls `GET /health` and shows the result
+- [x] A page calls `GET /health` and shows the result
 
 ## 3. Read a live mint
 
