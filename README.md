@@ -29,6 +29,17 @@ npm run dev
 
 Open `http://127.0.0.1:3000` while the API is running. The page calls `GET /health` and shows the status.
 
+## Chain
+
+From `services/chain`:
+
+```bash
+npm install
+npm test
+```
+
+This package is the only place that imports `@bordrless/sdk` and `@bordrless/shared`. It does not read a mint yet.
+
 ## Configuration
 
 Copy `.env.example` to `.env` in the repository root when you have a Solana RPC endpoint. The API reads `SOLANA_RPC_URL` from the environment, and from that file when the variable is unset. Do not commit `.env`. Do not put a wallet key in it. The server never signs transactions.
