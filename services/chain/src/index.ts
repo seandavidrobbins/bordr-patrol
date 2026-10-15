@@ -16,3 +16,9 @@ export function programId(name: ProgramName): string {
 
 export { fetchMint, readMintAccount } from "./mint.ts";
 export type { MintSnapshot, RegistryAccount, RegistrySeed } from "./mint.ts";
+export { simulateTaxHookTransfer } from "./tax-hook.ts";
+export type {
+  TaxHookConfig,
+  TaxHookTransfer,
+  TaxHookTransferResult,
+} from "./tax-hook.ts";

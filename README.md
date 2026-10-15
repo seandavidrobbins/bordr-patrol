@@ -38,7 +38,7 @@ npm install
 npm test
 ```
 
-This package is the only place that imports `@bordrless/sdk` and `@bordrless/shared`. `readMintAccount` decodes a mint and its hook registry. To read one from the network:
+This package is the only place that imports `@bordrless/sdk` and `@bordrless/shared`. `readMintAccount` decodes a mint and its hook registry. `simulateTaxHookTransfer` applies the published `tax_hook` rules to one transfer, with no RPC. To read a mint from the network:
 
 ```bash
 SOLANA_RPC_URL=https://... npm run read-mint -- <mint-address>

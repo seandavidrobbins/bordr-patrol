@@ -26,9 +26,9 @@ The product is both concepts. Sentinel is the intelligence: look up a token, its
 
 ## 4. Simulate a transfer
 
-- [ ] `tax_hook` rules are encoded from `programs/tax_hook`, not from memory
-- [ ] A transfer scenario returns the cut, the resulting amounts, and whether it would be refused
-- [ ] Those tests run without an RPC
+- [x] `tax_hook` rules are encoded from `programs/tax_hook`, not from memory
+- [x] A transfer scenario returns the cut, the resulting amounts, and whether it would be refused
+- [x] Those tests run without an RPC
 
 ## 5. Explain the numbers
 
